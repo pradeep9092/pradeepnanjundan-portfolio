@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import profileImg from "@/assets/profile.jpg";
+const profileImg = "https://i.postimg.cc/qq7d0sDV/Photo-(1).jpg";
 import heroBg from "@/assets/hero-bg.jpg";
 import { ArrowDown } from "lucide-react";
 
