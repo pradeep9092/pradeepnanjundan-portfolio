@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 const profileImg = "https://i.postimg.cc/qq7d0sDV/Photo-(1).jpg";
 import heroBg from "@/assets/hero-bg.jpg";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Download } from "lucide-react";
 
 const titles = ["QA Engineer → AI/ML Innovator", "Computer Vision Expert", "Problem Solver"];
 
