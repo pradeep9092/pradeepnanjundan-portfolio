@@ -61,6 +61,9 @@ const HeroSection = () => {
             <a href="#contact" className="glass-card-glow px-8 py-3 rounded-lg font-semibold text-primary border border-primary/30 hover:border-primary/60 transition-all">
               Contact Me
             </a>
+            <a href="/resume.pdf" download className="glass-card-glow px-8 py-3 rounded-lg font-semibold text-secondary border border-secondary/30 hover:border-secondary/60 transition-all inline-flex items-center gap-2">
+              <Download size={18} /> Resume
+            </a>
           </div>
 
           {/* Stats */}
