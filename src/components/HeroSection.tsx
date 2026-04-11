@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 const profileImg = "https://i.postimg.cc/qq7d0sDV/Photo-(1).jpg";
 import heroBg from "@/assets/hero-bg.jpg";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Download } from "lucide-react";
 
 const titles = ["QA Engineer → AI/ML Innovator", "Computer Vision Expert", "Problem Solver"];
 
@@ -61,6 +61,9 @@ const HeroSection = () => {
             <a href="#contact" className="glass-card-glow px-8 py-3 rounded-lg font-semibold text-primary border border-primary/30 hover:border-primary/60 transition-all">
               Contact Me
             </a>
+            <a href="/resume.pdf" download className="glass-card-glow px-8 py-3 rounded-lg font-semibold text-secondary border border-secondary/30 hover:border-secondary/60 transition-all inline-flex items-center gap-2">
+              <Download size={18} /> Resume
+            </a>
           </div>
 
           {/* Stats */}
@@ -78,7 +81,7 @@ const HeroSection = () => {
         <div className="flex-shrink-0">
           <div className="relative">
             <div className="absolute -inset-2 bg-gradient-to-br from-primary via-neon-purple to-neon-blue rounded-full opacity-60 blur-xl animate-pulse-glow" />
-            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-primary/40 neon-border">
+            <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-primary/40 neon-border">
               <img src={profileImg} alt="Pradeep Nanjundan" className="w-full h-full object-cover" width={512} height={512} />
             </div>
           </div>
