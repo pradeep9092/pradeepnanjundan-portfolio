@@ -80,9 +80,9 @@ const HeroSection = () => {
         {/* Profile */}
         <div className="flex-shrink-0">
           <div className="relative">
-            <div className="absolute -inset-2 bg-gradient-to-br from-primary via-neon-purple to-neon-blue rounded-full opacity-60 blur-xl animate-pulse-glow" />
-            <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-primary/40 neon-border">
-              <img src={profileImg} alt="Pradeep Nanjundan" className="w-full h-full object-cover" width={512} height={512} />
+            <div className="absolute -inset-3 bg-gradient-to-br from-primary via-neon-purple to-neon-blue rounded-2xl opacity-60 blur-xl animate-pulse-glow" />
+            <div className="relative w-60 h-60 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-primary/40 neon-border">
+              <img src={profileImg} alt="Pradeep Nanjundan" className="w-full h-full object-cover scale-[0.85]" width={512} height={512} />
             </div>
           </div>
         </div>
