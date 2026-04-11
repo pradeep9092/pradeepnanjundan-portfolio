@@ -34,7 +34,7 @@ const HeroSection = () => {
   const stats = [
     { value: "3+", label: "Years Experience" },
     { value: "AI/ML", label: "Computer Vision" },
-    { value: "5+", label: "Team Members Led" },
+    { value: "2+", label: "Team Members Led" },
   ];
 
   return (
