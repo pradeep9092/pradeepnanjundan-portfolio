@@ -14,7 +14,7 @@ const ContactSection = () => {
   const socials = [
     { icon: Mail, label: "pradeepkpn2001@gmail.com", href: "mailto:pradeepkpn2001@gmail.com" },
     { icon: Phone, label: "+91 9092223154", href: "tel:+919092223154" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/pradeepnanjundan786" },
     { icon: Github, label: "GitHub", href: "https://github.com" },
   ];
 
