@@ -48,7 +48,7 @@ const ExperienceSection = () => {
               <Briefcase className="text-primary" size={24} />
             </div>
             <div>
-              <h3 className="text-2xl font-bold">Quality Assurance Analyst</h3> (3 Years)</p>
+              <h3 className="text-2xl font-bold">Quality Assurance Analyst (3 Years)</h3>
             </div>
           </div>
           <p className="text-muted-foreground mt-4 mb-8">
@@ -72,9 +72,8 @@ const ExperienceSection = () => {
                 <p>• NTEP USA certification compliance</p>
               </div>
             </div>
-          </divpearheaded QA efforts for cutting-edge computer vision systems, ensuring measurement precision and reliability across AI-driven products deployed in real-world industrial environments.
-          </p>
-
+          </div>
+          
           <div className="space-y-3">
             {highlights.map((h, i) => {
               const Icon = h.icon;
