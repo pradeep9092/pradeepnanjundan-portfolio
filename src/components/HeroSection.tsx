@@ -40,7 +40,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* BG */}
-      <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-40" />
+      <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-30" />
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
 
       <div className="relative z-10 container mx-auto flex flex-col lg:flex-row items-center gap-12 py-32 px-4">
@@ -82,7 +82,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="absolute -inset-2 bg-gradient-to-br from-primary via-neon-purple to-neon-blue rounded-full opacity-60 blur-xl animate-pulse-glow" />
             <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-primary/40 neon-border">
-              <img src={profileImg} alt="Pradeep Nanjundan" className="w-full h-full object-cover" width={512} height={512} />
+              <img src={profileImg} alt="Pradeep Nanjundan" className="w-full h-full object-contain" width={300} height={300} />
             </div>
           </div>
         </div>
